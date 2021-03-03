@@ -4,3 +4,4 @@ tdd
 bin
 __pycache__
 *.pyc
+/static
