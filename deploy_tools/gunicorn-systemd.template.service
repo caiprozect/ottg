@@ -1,7 +1,7 @@
 [Unit]
 Description=Gunicorn server for DOMAIN 
 
-[Services]
+[Service]
 Restart=on-failure
 User=caiprozect 
 WorkingDirectory=/home/caiprozect/sites/DOMAIN 
