@@ -1,6 +1,7 @@
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.common.keys import Keys
 import time
 import os
 from .server_tools import reset_database 
